@@ -3,6 +3,14 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -30,8 +38,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -81,7 +90,7 @@ table {
 .nav-items > .active {
     border-bottom: 1px solid white;
     color: red;
-    background-color: rgba(255,255,255,.06);
+    font-weight: 800;
 }
 
 .about-section {
@@ -97,7 +106,66 @@ table {
 }
 
 .projects-section {
-    height: 100vh;
+    height: 60vh;
+    width: 100%;
     background-color: firebrick;
     color: white;
+}
+
+.projects-title {
+    text-align: center;
+    padding: 4%;
+    font-size: 3rem;
+}
+
+.projects {
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project {
+    background-color: rgba(255,255,255,.1);
+    width: 25%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.project-image {
+    width: 95%;
+    padding: 2%;
+    margin: auto;
+}
+
+.project img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-title {
+    margin-bottom: 2%;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+/* .project-links div:nth-of-type(2) {
+    margin: 0 15px;
+} */
+
+.project-links div {
+    margin: 3%;
+    padding: 2%;
+    width: 33%;
+    cursor: pointer;
+    background-color: lightslategray;
+    text-align: center;
+    border-radius: 50px;
 }
