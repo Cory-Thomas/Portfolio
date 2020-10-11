@@ -1,6 +1,7 @@
 import React from "react";
 // import { BrowserRouter } from 'react-router-dom'; 
 import Project from './Project';
+import Slide from 'react-reveal/Slide';
 
 const Projects = () => {
   const projectList = [
@@ -29,6 +30,9 @@ const Projects = () => {
       <div className='projects-title'>
         <h2>Projects </h2>
       </div>
+      
+
+      <Slide left>
       <section className="projects">
         { projectList.map(({ image, title, description, link }) => {
           return (
@@ -43,6 +47,8 @@ const Projects = () => {
           )
         })}
       </section>
+      </Slide>
+      
     </div>
   )
 };

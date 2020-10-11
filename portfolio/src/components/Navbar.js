@@ -1,10 +1,15 @@
 import React from "react";
 import { Link } from 'react-scroll';
+import Slide from 'react-reveal/Slide';
  
 const Projects = () => {
   return (
+    <Slide down >
     <div className='navbar'>
-        <div>Cory Thomas</div>
+        <Slide down delay={500}>
+            <div>Cory Thomas</div>
+        </Slide>
+        <Slide down delay={500}>
         <div className='nav-items'>
             <Link 
             activeClass='active'
@@ -47,7 +52,9 @@ const Projects = () => {
                 Contact
             </Link>
         </div>
+        </Slide>
     </div>
+    </Slide>
   )
 };
  

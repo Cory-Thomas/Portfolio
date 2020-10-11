@@ -165,7 +165,8 @@ table {
     padding: 2%;
     width: 33%;
     cursor: pointer;
-    background-color: lightslategray;
+    background-color: black;
     text-align: center;
     border-radius: 50px;
 }
+
