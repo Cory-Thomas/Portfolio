@@ -118,7 +118,6 @@ h1, h2, h3, .navbar {
 
 .hero-section {
     height: 100vh;
-    /* background-color: #1F2833; */
     background: rgb(31,40,51);
     background: -moz-linear-gradient(140deg, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
     background: -webkit-linear-gradient(140deg, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
@@ -136,20 +135,27 @@ h1, h2, h3, .navbar {
 
 .about-section {
     height: 100vh;
-    background-color: hotpink;
+    background: rgb(31,40,51);
+    background: -moz-radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
+    background: radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f2833",endColorstr="#0b0c10",GradientType=1);
     color: white;
 }
 
 .contact-section {
     height: 100vh;
-    background-color: olivedrab;
+    background: rgb(31,40,51);
+    background: -moz-radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
+    background: radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f2833",endColorstr="#0b0c10",GradientType=1);
     color: white;
 }
 
 .projects-section {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
-    /* background-color: firebrick; */
     background: rgb(31,40,51);
     background: -moz-radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
     background: -webkit-radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
@@ -161,6 +167,7 @@ h1, h2, h3, .navbar {
 .projects-title {
     text-align: center;
     padding: 4%;
+    padding-top: 7%;
     font-size: 3rem;
 }
 
@@ -199,12 +206,7 @@ h1, h2, h3, .navbar {
 .project-links {
     display: flex;
     justify-content: space-between;
-    /* background-color: black; */
 }
-
-/* .project-links div:nth-of-type(2) {
-    margin: 0 15px;
-} */
 
 .project-links div {
     margin: 3%;

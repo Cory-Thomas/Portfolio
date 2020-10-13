@@ -5,20 +5,17 @@ import Projects from './Projects.js';
 import About from './About.js';
 import Contact from './Contact.js'; 
 import './App.css';
-import { SportsRugbySharp } from '@material-ui/icons';
 
 const App = () => {
   return (
       <> 
         <Navbar />
         <HeroSection />
-        
-          <div className='section-line'></div >
-          
+        <div className='section-line' />
         <Projects />
-        <div className='section-line' >About Me</div>
+        <div className='section-line' />
         <About />
-        <div className='section-line'>Contact</div>
+        <div className='section-line' />
         <Contact />
       </>
   );
