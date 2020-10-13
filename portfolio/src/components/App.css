@@ -265,7 +265,7 @@ h1, h2, h3, .navbar {
 
 .project {
     background-color: rgba(255,255,255,.1);
-    width: 25%;
+    width: 450px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -319,12 +319,25 @@ h1, h2, h3, .navbar {
     /* ... */
 }
 
-@media (max-width: 1200px) {
-    /* ... */
+@media (max-width: 1400px) {
+    .projects-section {
+        height: 170vh;
+    }
+
+    .projects {
+        color: red;
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;    
+    }
+    .project {
+        margin: 2%;
+    }
 }
 
 @media (max-width: 992px) {
-    /* ... */
+    
 }
 
 @media (max-width: 768px) {
