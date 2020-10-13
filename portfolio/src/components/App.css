@@ -104,6 +104,10 @@ h1, h2, h3, .navbar {
     cursor: pointer;
 }
 
+.nav-items a:hover {
+    color: #66FCF1;
+}
+
 .section-line {
     height: 20px;
     z-index: 2;
@@ -123,7 +127,7 @@ h1, h2, h3, .navbar {
     background: -webkit-linear-gradient(140deg, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
     background: linear-gradient(140deg, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f2833",endColorstr="#0b0c10",GradientType=1);
-    padding-top: 5%;
+    /* padding-top: 5%; */
     color: white;
     display: flex;
     justify-content: center;
@@ -134,6 +138,8 @@ h1, h2, h3, .navbar {
     display: flex;
     flex-direction: column;
     color: #e1e4e6;
+    padding-bottom: 15%;
+    padding-right: 15%;
 }
 
 .hero-content div {
@@ -142,8 +148,16 @@ h1, h2, h3, .navbar {
 }
 
 .hero-name {
-    font-size: 3.8rem;
+    font-size: 5.4rem;
     color: #66FCF1;
+}
+
+.hero-content div:nth-child(1) {
+    font-size: 1.4rem;
+}
+
+.hero-description {
+    font-size: 2.6rem;;
 }
 
 .hero-word {
@@ -152,7 +166,7 @@ h1, h2, h3, .navbar {
 
 .word {
     display: inline-block;
-    height: 16px;
+    height: 33px;
 }
 
 .word span {
@@ -224,7 +238,7 @@ h1, h2, h3, .navbar {
 }
 
 .projects-section {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background: rgb(31,40,51);
     background: -moz-radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
@@ -237,7 +251,8 @@ h1, h2, h3, .navbar {
 .projects-title {
     text-align: center;
     padding: 4%;
-    padding-top: 7%;
+    padding-top: 6%;
+    margin-bottom: 2%;
     font-size: 3rem;
 }
 
@@ -251,7 +266,7 @@ h1, h2, h3, .navbar {
 .project {
     background-color: rgba(255,255,255,.1);
     width: 25%;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -275,18 +290,54 @@ h1, h2, h3, .navbar {
     margin-bottom: 2%;
 }
 
+.project-description {
+    padding: 1% 6%;
+}
+
 .project-links {
     display: flex;
     justify-content: space-between;
 }
 
 .project-links div {
+    font-size: 1rem;
     margin: 3%;
     padding: 2%;
     width: 33%;
     cursor: pointer;
-    background-color: black;
+    background-color: #11131a;
     text-align: center;
     border-radius: 50px;
 }
 
+.project-links div:hover {
+    background-color: #45A29E;
+    color: black;
+}
+
+@media (max-width: 1920px) {
+    /* ... */
+}
+
+@media (max-width: 1200px) {
+    /* ... */
+}
+
+@media (max-width: 992px) {
+    /* ... */
+}
+
+@media (max-width: 768px) {
+    /* ... */
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .nav-items a {
+        padding: 1px;
+        margin: 20px 0px;
+    }
+}

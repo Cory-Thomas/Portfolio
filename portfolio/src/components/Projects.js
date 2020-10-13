@@ -8,19 +8,19 @@ const Projects = () => {
     {
       image: 'https://uploads-ssl.webflow.com/571d965d75e0008b09b19bc5/5bac149821b828ff768f64c5_framed%20and%20matted%20thumb.png', 
       title: 'Project 1', 
-      description: 'This is a description of the project describing what it/s core purpose is', 
+      description: 'This is a description of the project describing what i\'s core purpose is', 
       link: '#' 
     },
     {
       image: 'https://uploads-ssl.webflow.com/571d965d75e0008b09b19bc5/5bac149821b828ff768f64c5_framed%20and%20matted%20thumb.png', 
       title: 'Project 2', 
-      description: 'This is a description of the project describing what it/s core purpose is This is a description of the project describing what it/s core purpose is ', 
+      description: 'This is a description of the project describing what it\'s core purpose is This is a description of the project describing what it\'s core purpose is ', 
       link: '#' 
     },
     {
       image: 'https://uploads-ssl.webflow.com/571d965d75e0008b09b19bc5/5bac149821b828ff768f64c5_framed%20and%20matted%20thumb.png', 
       title: 'Project 3', 
-      description: 'This is a description of the project describing what it/s core purpose is This is a description of the project describing what it/s core purpose is This is a description of the project describing what it/s core purpose is', 
+      description: 'This is a description of the project describing what it\'s core purpose is This is a description of the project describing what it\'s core purpose is This is a description of the project describing what it\'s core purpose is', 
       link: '#' 
     }
   ];

@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className='hero-name'>
           <h1>Cory Thomas.</h1>
         </div>
-        <div>
+        <div className='hero-description'>
           <h2>
             I'm a 
             <span className='hero-word'> Web Developer </span>
