@@ -186,17 +186,19 @@ h1, h2, h3, .navbar {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    border-radius: 25px;
 }
 
 .project-image {
-    width: 95%;
-    padding: 2%;
+    width: 90%;
+    padding: 5%;
     margin: auto;
 }
 
 .project img {
     width: 100%;
     margin: 0 auto;
+    border-radius: 15px;
 }
 
 .project-title {
