@@ -28,7 +28,7 @@ const Projects = () => {
   return (
     <div className="projects-section">
       <div className='projects-title'>
-        <h2>Projects </h2>
+        {/* <h2>Projects </h2> */}
       </div>
       
 

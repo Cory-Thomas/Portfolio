@@ -11,11 +11,11 @@ const App = () => {
       <> 
         <Navbar />
         <HeroSection />
-        <div className='section-line' />
+        <div className='section-line'> Projects</div>
         <Projects />
-        <div className='section-line' />
+        <div className='section-line'> About Me</div>
         <About />
-        <div className='section-line' />
+        <div className='section-line'> Contact</div>
         <Contact />
       </>
   );
