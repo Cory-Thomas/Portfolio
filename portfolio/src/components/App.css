@@ -272,6 +272,16 @@ h1, h2, h3, .navbar {
     justify-content: space-between;
     text-align: center;
     border-radius: 25px;
+    border: 1px rgba(255, 255, 255, 0.123) solid;
+    -webkit-box-shadow: 0px 0px 29px -4px rgba(69,162,158,1);
+    -moz-box-shadow: 0px 0px 29px -4px rgba(69,162,158,1);
+    box-shadow: 0px 0px 29px -4px rgba(69,162,158,1);
+}
+
+.project:hover {
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(69,162,158,1);
+    -moz-box-shadow: 0px 0px 29px 0px rgba(69,162,158,1);
+    box-shadow: 0px 0px 29px 0px rgba(69,162,158,1);
 }
 
 .project-image {
@@ -352,5 +362,9 @@ h1, h2, h3, .navbar {
     .nav-items a {
         padding: 1px;
         margin: 20px 0px;
+    }
+
+    .project {
+        height: 400px;
     }
 }
