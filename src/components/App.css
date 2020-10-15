@@ -243,6 +243,9 @@ h1, h2, h3, .navbar {
     background: radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f2833",endColorstr="#0b0c10",GradientType=1);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects-section {
@@ -334,6 +337,53 @@ h1, h2, h3, .navbar {
     color: black;
 }
 
+.form-card {
+    width: 40%;
+    height: 40%;
+    background-color: rgba(255,255,255,.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px rgba(255, 255, 255, 0.123) solid;
+    -webkit-box-shadow: 0px 0px 29px -4px rgba(69,162,158,1);
+    -moz-box-shadow: 0px 0px 29px -4px rgba(69,162,158,1);
+    box-shadow: 0px 0px 29px -4px rgba(69,162,158,1);
+}
+
+form {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 2.6rem;
+}
+
+.input-container, button {
+    margin: 0 auto;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+}
+
+form button {
+    width: 140px;
+    padding: 2%;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    color: #e1e4e6;
+    background-color: #45A29E;
+}
+
 @media (max-width: 1920px) {
     /* ... */
 }
@@ -344,7 +394,6 @@ h1, h2, h3, .navbar {
     }
 
     .projects {
-        color: red;
         width: 50%;
         flex-wrap: wrap;
         justify-content: center;
