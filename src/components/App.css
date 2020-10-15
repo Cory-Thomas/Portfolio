@@ -365,14 +365,19 @@ form {
     margin: 0 auto;
 }
 
-input {
+.input-container input {
     width: 400px;
     height: 30px;
+    padding: 2%;
+    font-size: 1.4rem;
 }
 
-textarea {
+.input-container textarea {
+    margin: 3% 0;
     width: 400px;
     height: 100px;
+    padding: 2%;
+    font-size: 1.4rem;
 }
 
 form button {
@@ -382,6 +387,13 @@ form button {
     font-size: 1.4rem;
     color: #e1e4e6;
     background-color: #45A29E;
+    cursor: pointer;
+}
+
+form button:hover {
+    -webkit-box-shadow: 0px 0px 29px -4px rgba(69,162,158,1);
+    -moz-box-shadow: 0px 0px 29px -4px rgba(69,162,158,1);
+    box-shadow: 0px 0px 29px -4px rgba(69,162,158,1);
 }
 
 @media (max-width: 1920px) {
