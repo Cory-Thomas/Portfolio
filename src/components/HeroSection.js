@@ -21,12 +21,10 @@ const HeroSection = () => {
                 <span>Gamer</span>
                 <span>Cat Dad</span>
               </span>
-             
-             {/* <span className='hero-word'> multipotentialite </span>
-              (many interests). */}
             </h2>
         </div>
-        {/* <div>Skill icons?</div> */}
+        {/* Add logos/links to my social accounts
+        LinkedIn, GitHub, Twitter? etc */}
       </div>
     </div>
   )
