@@ -29,3 +29,6 @@ export default App;
 // https://brittanychiang.com/
 // https://joowoonk.ga/
 // https://janessagarrow.com/
+// https://www.kevinn.net/
+// https://www.jordanmiller.dev/
+// https://www.juliacodes.com/
