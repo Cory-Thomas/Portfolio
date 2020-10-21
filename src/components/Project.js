@@ -14,11 +14,38 @@ const Project = ({ image, title, description, link }) => {
                 <p>{ description }</p>
             </div>
         </div>
-        <div className='project-links'>
+        <div className='button-section'>
+            <div className='border-1' />
+
+            <div className='upper-button'>
+                <div>Project Details</div>
+            </div>
+
+            <div className='border-wrapper'>
+                <div className='border-2' />
+                <div className='border-5' />
+                <div className='border-3' />
+            </div>
+            
+
+            <div className='bottom-buttons'>
+                <div className='live-site'>
+                    Live Site
+                </div>
+
+                <div className='border-4' />
+
+                <div className='github-repo'>
+                    Github Repo
+                </div>
+            </div>
+        </div>
+
+        {/* <div className='project-links'>
             <div>Project Details</div>   
             <div>Live Site</div>
             <div>Github Repo</div>
-        </div>
+        </div> */}
     </div>
   )
 };

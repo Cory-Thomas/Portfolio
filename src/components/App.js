@@ -25,10 +25,11 @@ export default App;
 
 // Inspiration sites:
 
-// https://diogotc.com/
+// https://gregives.co.uk/
+// https://www.juliacodes.com/
 // https://brittanychiang.com/
 // https://joowoonk.ga/
 // https://janessagarrow.com/
 // https://www.kevinn.net/
 // https://www.jordanmiller.dev/
-// https://www.juliacodes.com/
+// https://diogotc.com/

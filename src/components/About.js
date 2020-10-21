@@ -21,7 +21,7 @@ const About = () => {
             Unfortunately, I didn't know that I enjoyed web development back then since I didn't take the club seriously enough.
             In contrast, I fully committed myself by self-studying for over a year and knew this field was absolutely for me!
             As a result, I attended Lambda School full time as a full-stack web student and mentor focusing on React, Node, and computer science.
-            This journey has been extremely satisfying so far and fulfills my desire to always learn something new.
+            This journey has been extremely satisfying so far and fulfills my desire to always learn something new and challenging.
           </p>
         </div>
         <div className='skills-wrapper'>
