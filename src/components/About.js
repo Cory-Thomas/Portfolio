@@ -1,11 +1,13 @@
 import React from "react";
-import JavaScript from '../pictures/javascript.svg';
-import css from '../pictures/css-3.svg';
-import git from '../pictures/git-icon.svg';
-import html from '../pictures/html-5.svg';
-import react from '../pictures/reactlogo.svg';
-import redux from '../pictures/reduxlogo.png';
-import sass from '../pictures/sass-1.svg';
+import { ReactLogo } from '@styled-icons/fa-brands/ReactLogo';
+import { Html5 } from '@styled-icons/fa-brands/Html5';
+import { Css3Alt } from '@styled-icons/fa-brands/Css3Alt';
+import { Redux } from '@styled-icons/simple-icons/Redux';
+import { Javascript } from '@styled-icons/simple-icons/Javascript';
+import { Sass } from '@styled-icons/simple-icons/Sass';
+import { Jest } from '@styled-icons/simple-icons/Jest';
+import { Cypress } from '@styled-icons/simple-icons/Cypress';
+import { Git } from '@styled-icons/simple-icons/Git';
  
 const About = () => {
   return (
@@ -32,23 +34,23 @@ const About = () => {
           {/* <div>Skills: </div> */}
           <section className='about-skills'>
             <div>
-              <div><img src={JavaScript} alt='' className='logo'/> JavaScript</div>
-              <div><img src={html} alt='' className='logo'/> HTML5</div>
-              <div><img src={css} alt='' className='logo'/> CSS3</div>
-              <div><img src={sass} alt='' className='logo'/> Sass</div>
+              <div><Javascript className='logo'/> JavaScript</div>
+              <div><Html5 className='logo'/> HTML5</div>
+              <div><Css3Alt className='logo'/> CSS3</div>
+              <div><Sass className='logo'/> Sass</div>
             </div>
             <div>
-              <div><img src={react} alt='' className='logo'/> React</div>
-              <div><img src={react} alt='' className='logo'/> React Hooks</div>
+              <div><ReactLogo className='logo'/> React</div>
+              <div><ReactLogo className='logo'/> React Hooks</div>
             
-              <div><img src={react} alt='' className='logo'/> Context API</div>
-              <div><img src={redux} alt='' className='logo'/> Redux</div>
+              <div><ReactLogo className='logo'/> Context API</div>
+              <div><Redux className='logo' style={{color: 'blue'}}/> Redux</div>
             </div>
             <div>
-              <div><img src={JavaScript} alt='' className='logo'/> Jest</div>
-              <div><img src={JavaScript} alt='' className='logo'/> Cypress</div>
-              <div><img src={JavaScript} alt='' className='logo'/> React Testing Library</div>
-              <div><img src={git} alt='' className='logo'/> Git/GitHub</div>
+              <div><Jest className='logo'/> Jest</div>
+              <div><Cypress className='logo'/> Cypress</div>
+              <div><ReactLogo className='logo'/> React Testing Library</div>
+              <div><Git className='logo'/> Git/GitHub</div>
             </div>
           </section>
         </div>
