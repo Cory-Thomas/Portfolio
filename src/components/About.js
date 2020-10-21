@@ -8,6 +8,7 @@ import { Sass } from '@styled-icons/simple-icons/Sass';
 import { Jest } from '@styled-icons/simple-icons/Jest';
 import { Cypress } from '@styled-icons/simple-icons/Cypress';
 import { Git } from '@styled-icons/simple-icons/Git';
+import { Github } from '@styled-icons/fa-brands/Github';
  
 const About = () => {
   return (
@@ -44,13 +45,14 @@ const About = () => {
               <div><ReactLogo className='logo'/> React Hooks</div>
             
               <div><ReactLogo className='logo'/> Context API</div>
-              <div><Redux className='logo' style={{color: 'blue'}}/> Redux</div>
+              <div><Redux className='logo'/> Redux</div>
             </div>
             <div>
               <div><Jest className='logo'/> Jest</div>
               <div><Cypress className='logo'/> Cypress</div>
               <div><ReactLogo className='logo'/> React Testing Library</div>
-              <div><Git className='logo'/> Git/GitHub</div>
+              <div><Git className='logo'/> Git</div>
+              <div><Github className='logo'/> GitHub</div>
             </div>
           </section>
         </div>
