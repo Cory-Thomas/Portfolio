@@ -452,7 +452,7 @@ h1, h2, h3, .navbar {
 }
 
 .about-wrapper {
-    width: 70%;
+    width: 60%;
     height: 70%;
     background-color: rgba(255,255,255,.1);
     border-radius: 25px;
@@ -466,8 +466,13 @@ h1, h2, h3, .navbar {
     align-items: center;
 }
 
+.bio {
+    width: 65%;
+    text-align: center;
+}
+
 .about-wrapper p {
-    padding: 2%;
+    padding: 1%;
     line-height: 1.8rem;
 }
 

@@ -11,21 +11,25 @@ const About = () => {
   return (
     <div className="about-section">
       <section className='about-wrapper'>
-        <div>
+        <div className='bio'>
           <p>Hello! My name is Cory Thomas, a web developer based in Chattanooga, Tennessee.</p>
           <p>
             Interestingly, my journey into programming started because of the Oculus Rift Development Kit 1 VR headset. 
             I would browse the Oculus forums and noticed several people discussing code which made me want to dive into C++ in 2013.
+          
             Eventually, I went to college for Computer Science but took a hiatus after two years because I was unsure of what I wanted to specialize in. 
             I remembered my time in high school when I was in the Web Development club and so I started to dabble with it again.
             Unfortunately, I didn't know that I enjoyed web development back then since I didn't take the club seriously enough.
+          
             In contrast, I fully committed myself by self-studying for over a year and knew this field was absolutely for me!
             As a result, I attended Lambda School full time as a full-stack web student and mentor focusing on React, Node, and computer science.
+          </p>
+          <p>
             This journey has been extremely satisfying so far and fulfills my desire to always learn something new and challenging.
           </p>
         </div>
         <div className='skills-wrapper'>
-          <div>Here are some skills that I practice regularly: </div>
+          {/* <div>Skills: </div> */}
           <section className='about-skills'>
             <div>
               <div><img src={JavaScript} alt='' className='logo'/> JavaScript</div>
