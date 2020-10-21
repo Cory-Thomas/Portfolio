@@ -169,7 +169,7 @@ h1, h2, h3, .navbar {
     padding: 2%;
 }
 
-.hero-name {
+.hero-name h1 {
     font-size: 5.4rem;
     color: #66FCF1;
 }
@@ -188,7 +188,7 @@ h1, h2, h3, .navbar {
 
 .word {
     display: inline-block;
-    height: 33px;
+    height: 34px;
 }
 
 .word span {
