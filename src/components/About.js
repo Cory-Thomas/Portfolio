@@ -9,6 +9,7 @@ import { Jest } from '@styled-icons/simple-icons/Jest';
 import { Cypress } from '@styled-icons/simple-icons/Cypress';
 import { Git } from '@styled-icons/simple-icons/Git';
 import { Github } from '@styled-icons/fa-brands/Github';
+import { StyledComponents } from '@styled-icons/simple-icons/StyledComponents';
  
 const About = () => {
   return (
@@ -39,6 +40,7 @@ const About = () => {
               <div><Html5 className='logo'/> HTML5</div>
               <div><Css3Alt className='logo'/> CSS3</div>
               <div><Sass className='logo'/> Sass</div>
+              <div><StyledComponents className='logo'/> Styled Components</div>
             </div>
             <div>
               <div><ReactLogo className='logo'/> React</div>
