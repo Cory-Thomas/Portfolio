@@ -6,11 +6,16 @@ import About from './About.js';
 import Contact from './Contact.js'; 
 import Fade from 'react-reveal/Fade';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
 
 const App = () => {
   return (
-      <> 
-        <Navbar />
+      <Router> 
+        <Route exact path='/'>
+          <Navbar />
         <HeroSection />
         <Fade>
           <div className='section-line'> Projects</div>
@@ -24,7 +29,17 @@ const App = () => {
           <div className='section-line'> Contact</div>
         </Fade>
         <Contact />
-      </>
+        </Route>
+        <Route path='/detail-1'>
+          <div style={{color: 'white'}}><h1>Project 1</h1></div>
+        </Route>
+        <Route path='/detail-2'>
+          <div style={{color: 'white'}}><h1>Project 2</h1></div>
+        </Route>
+        <Route path='/detail-3'>
+          <div style={{color: 'white'}}><h1>Project 3</h1></div>
+        </Route>
+      </Router>
   );
 };
 

@@ -37,21 +37,22 @@ const About = () => {
         <div className='skills-wrapper'>
           {/* <div>Skills: </div> */}
           <section className='about-skills'>
-            <div>
-              <div><Javascript className='logo'/> JavaScript</div>
-              <div><Html5 className='logo'/> HTML5</div>
-              <div><Css3Alt className='logo'/> CSS3</div>
-              <div><Sass className='logo'/> Sass</div>
-              <div><StyledComponents className='logo'/> Styled Components</div>
-            </div>
-            <div>
-              <div><ReactLogo className='logo'/> React</div>
-              <div><ReactLogo className='logo'/> React Hooks</div>
-            
-              <div><ReactLogo className='logo'/> Context API</div>
-              <div><Redux className='logo'/> Redux</div>
-            </div>
-            <div>
+            {/* <div> */}
+              <div className='skills-1'>
+                <div><Javascript className='logo'/> JavaScript</div>
+                <div><Html5 className='logo'/> HTML5</div>
+                <div><Css3Alt className='logo'/> CSS3</div>
+                <div><Sass className='logo'/> Sass</div>
+                <div><StyledComponents className='logo'/> Styled Components</div>
+              </div>
+              <div className='skills-2'>
+                <div><ReactLogo className='logo'/> React</div>
+                <div><ReactLogo className='logo'/> React Hooks</div>
+                <div><ReactLogo className='logo'/> Context API</div>
+                <div><Redux className='logo'/> Redux</div>
+              </div>
+            {/* </div> */}
+            <div className='skills-3'>
               <div><Jest className='logo'/> Jest</div>
               <div><Cypress className='logo'/> Cypress</div>
               <div><ReactLogo className='logo'/> React Testing Library</div>

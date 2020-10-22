@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-const Project = ({ image, title, description, link }) => {
+const Project = ({ image, title, description, link, id }) => {
   return (
     <div className="project">
         <div>
@@ -18,7 +19,7 @@ const Project = ({ image, title, description, link }) => {
             <div className='border-1' />
 
             <div className='upper-button'>
-                <div>Project Details</div>
+                <Link to={`/detail-${id}`}><div>Project Details</div></Link>
             </div>
 
             <div className='border-wrapper'>
