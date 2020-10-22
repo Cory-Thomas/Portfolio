@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 import { ReactLogo } from '@styled-icons/fa-brands/ReactLogo';
 import { Html5 } from '@styled-icons/fa-brands/Html5';
 import { Css3Alt } from '@styled-icons/fa-brands/Css3Alt';
@@ -14,6 +15,7 @@ import { StyledComponents } from '@styled-icons/simple-icons/StyledComponents';
 const About = () => {
   return (
     <div className="about-section">
+      <Fade up>
       <section className='about-wrapper'>
         <div className='bio'>
           <p>Hello! My name is Cory Thomas, a web developer based in Chattanooga, Tennessee.</p>
@@ -59,6 +61,7 @@ const About = () => {
           </section>
         </div>
       </section>
+      </Fade>
     </div>
   )
 };

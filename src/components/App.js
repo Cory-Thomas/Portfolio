@@ -4,6 +4,7 @@ import HeroSection from './HeroSection.js';
 import Projects from './Projects.js'; 
 import About from './About.js';
 import Contact from './Contact.js'; 
+import Fade from 'react-reveal/Fade';
 import './App.css';
 
 const App = () => {
@@ -11,11 +12,17 @@ const App = () => {
       <> 
         <Navbar />
         <HeroSection />
-        <div className='section-line'> Projects</div>
+        <Fade right>
+          <div className='section-line'> Projects</div>
+        </Fade>
         <Projects />
-        <div className='section-line'> About Me</div>
+        <Fade right>
+          <div className='section-line'> About Me</div>
+        </Fade>
         <About />
-        <div className='section-line'> Contact</div>
+        <Fade right>
+          <div className='section-line'> Contact</div>
+        </Fade>
         <Contact />
       </>
   );

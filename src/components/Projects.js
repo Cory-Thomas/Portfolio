@@ -1,7 +1,7 @@
 import React from "react";
 // import { BrowserRouter } from 'react-router-dom'; 
 import Project from './Project';
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
   const projectList = [
@@ -32,7 +32,7 @@ const Projects = () => {
       </div> */}
       
 
-      <Slide left>
+      <Fade up>
       <section className="projects">
         { projectList.map(({ image, title, description, link }) => {
           return (
@@ -47,7 +47,7 @@ const Projects = () => {
           )
         })}
       </section>
-      </Slide>
+      </Fade>
       
     </div>
   )
