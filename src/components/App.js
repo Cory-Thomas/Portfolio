@@ -5,6 +5,9 @@ import Projects from './Projects.js';
 import About from './About.js';
 import Contact from './Contact.js'; 
 import Fade from 'react-reveal/Fade';
+import Project1 from './Project1';
+import Project2 from './Project2';
+import Project3 from './Project3';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -31,13 +34,13 @@ const App = () => {
         <Contact />
         </Route>
         <Route path='/detail-1'>
-          <div style={{color: 'white'}}><h1>Project 1</h1></div>
+          <Project1 />
         </Route>
         <Route path='/detail-2'>
-          <div style={{color: 'white'}}><h1>Project 2</h1></div>
+          <Project2 />
         </Route>
         <Route path='/detail-3'>
-          <div style={{color: 'white'}}><h1>Project 3</h1></div>
+          <Project3 />
         </Route>
       </Router>
   );
