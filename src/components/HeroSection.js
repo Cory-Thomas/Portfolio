@@ -1,8 +1,10 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
  
 const HeroSection = () => {
   return (
     <div className="hero-section">
+      <Fade right>
       <div className='hero-content'>
         <div>
           <h2>Hi, my name is</h2>
@@ -25,7 +27,7 @@ const HeroSection = () => {
         </div>
         {/* Add logos/links to my social accounts
         LinkedIn, GitHub, Twitter? etc */}
-      </div>
+      </div></Fade>
     </div>
   )
 };

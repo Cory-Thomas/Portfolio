@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 const Contact = () => {
   return (
     <div className="contact-section">
-      <Fade up>
+      <Fade left>
         <div className='form-card'>
           <form name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />

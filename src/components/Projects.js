@@ -27,12 +27,7 @@ const Projects = () => {
 
   return (
     <div className="projects-section">
-      {/* <div className='projects-title'>
-         <h2>Projects </h2> 
-      </div> */}
-      
-
-      <Fade up>
+      <Fade left>
       <section className="projects">
         { projectList.map(({ image, title, description, link }) => {
           return (

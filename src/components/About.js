@@ -15,7 +15,7 @@ import { StyledComponents } from '@styled-icons/simple-icons/StyledComponents';
 const About = () => {
   return (
     <div className="about-section">
-      <Fade up>
+      <Fade right>
       <section className='about-wrapper'>
         <div className='bio'>
           <p>Hello! My name is Cory Thomas, a web developer based in Chattanooga, Tennessee.</p>

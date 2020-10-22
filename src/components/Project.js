@@ -40,12 +40,6 @@ const Project = ({ image, title, description, link }) => {
                 </div>
             </div>
         </div>
-
-        {/* <div className='project-links'>
-            <div>Project Details</div>   
-            <div>Live Site</div>
-            <div>Github Repo</div>
-        </div> */}
     </div>
   )
 };

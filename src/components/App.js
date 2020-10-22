@@ -12,15 +12,15 @@ const App = () => {
       <> 
         <Navbar />
         <HeroSection />
-        <Fade right>
+        <Fade>
           <div className='section-line'> Projects</div>
         </Fade>
         <Projects />
-        <Fade right>
+        <Fade>
           <div className='section-line'> About Me</div>
         </Fade>
         <About />
-        <Fade right>
+        <Fade>
           <div className='section-line'> Contact</div>
         </Fade>
         <Contact />

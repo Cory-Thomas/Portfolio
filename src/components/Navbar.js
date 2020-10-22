@@ -10,7 +10,6 @@ const Projects = () => {
         <Fade down delay={500}>
             <div className='nav-name'>Cory Thomas</div>
         </Fade>
-        {/* <Slide down delay={500}> */}
         <div className='nav-items'>
         
             <Link 
@@ -57,7 +56,6 @@ const Projects = () => {
                 Contact</Fade>
             </Link>
         </div>
-        {/* </Slide> */}
     </div>
     </Slide>
   )
