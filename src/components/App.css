@@ -244,7 +244,8 @@ h1, h2, h3, .navbar {
 
 
 .projects-section {
-    height: 90vh;
+    height: 100%;
+    padding: 16% 0;
     width: 100%;
     background: rgb(31,40,51);
     background: -moz-radial-gradient(circle, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
@@ -439,7 +440,8 @@ h1, h2, h3, .navbar {
 
 
 .about-section {
-    height: 100vh;
+    height: 100%;
+    padding: 10% 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -454,6 +456,7 @@ h1, h2, h3, .navbar {
 .about-wrapper {
     width: 60%;
     height: 70%;
+    padding: 2% 0;
     background-color: rgba(255,255,255,.1);
     border-radius: 25px;
     border: 5px #45a29da8 solid;
@@ -464,15 +467,18 @@ h1, h2, h3, .navbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .bio {
     width: 65%;
+    /* height: 500px; */
+    padding: 2%;
     text-align: center;
 }
 
 .about-wrapper p {
-    padding: 1%;
+    padding: 2%;
     line-height: 1.8rem;
 }
 
@@ -481,6 +487,7 @@ h1, h2, h3, .navbar {
 }
 
 .about-skills {
+    height: 400px;;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
