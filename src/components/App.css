@@ -171,11 +171,14 @@ h1, h2, h3, .navbar {
 }
 
 .hero-content {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #e1e4e6;
-    padding-bottom: 15%;
-    padding-right: 15%;
+    /* padding-bottom: 15%;
+    padding-right: 15%; */
 }
 
 .hero-content div {
@@ -256,9 +259,23 @@ h1, h2, h3, .navbar {
     font-weight: 600;
 }
 
+.rightSide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .socials{
     display: flex;
-    padding: 2%;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials div {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
