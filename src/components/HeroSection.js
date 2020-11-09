@@ -22,6 +22,7 @@ const HeroSection = () => {
                 <span>Bonsai Enthusiast</span>
                 <span>Gamer</span>
                 <span>Cat Dad</span>
+                <span>VR Enthusiast</span>
               </span>
             </h2>
         </div>
