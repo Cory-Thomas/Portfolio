@@ -155,7 +155,9 @@ h1, h2, h3, .navbar {
 
 
 .hero-section {
-    height: 100vh;
+    height: 100%;
+    padding: 13.5% 0;
+    width: 100%;
     background: rgb(31,40,51);
     background: -moz-linear-gradient(140deg, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
     background: -webkit-linear-gradient(140deg, rgba(31,40,51,1) 57%, rgba(11,12,16,1) 100%);
@@ -252,6 +254,13 @@ h1, h2, h3, .navbar {
     border-bottom: 3px solid #66FCF1;
     color: #45A29E;
     font-weight: 600;
+}
+
+.socials{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -649,6 +658,9 @@ form button:hover {
     /* .about-section {
         height: 150vh;
     }*/
+    .hero-section {
+        flex-direction: column;
+    }
 
     .skills-wrapper{
         height: 100%;

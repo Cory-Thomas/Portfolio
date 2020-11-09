@@ -1,5 +1,8 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
+import { Linkedin } from '@styled-icons/simple-icons/Linkedin';
+import { Github } from '@styled-icons/fa-brands/Github';
+import { TwitterSquare } from '@styled-icons/fa-brands/TwitterSquare';
  
 const HeroSection = () => {
   return (
@@ -26,9 +29,15 @@ const HeroSection = () => {
               </span>
             </h2>
         </div>
-        {/* Add logos/links to my social accounts
-        LinkedIn, GitHub, Twitter? etc */}
       </div></Fade>
+      <div className='rightSide'>
+          <img src="https://i.pinimg.com/736x/52/bc/39/52bc3928fd63daa22ebfb555f9ae07dd.jpg" alt="Cory Thomas" />
+          <div className='socials'>
+            <div><Linkedin className="logo"/></div>
+            <div><Github className="logo"/></div>
+            <div><TwitterSquare className="logo"/></div>
+          </div>
+        </div>
     </div>
   )
 };
