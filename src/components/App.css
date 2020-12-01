@@ -274,10 +274,9 @@ h1, h2, h3, .navbar {
     align-items: center;
 }
 
-.socials div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.so {
+    width: 40%;
+    text-align: center;
 }
 
 

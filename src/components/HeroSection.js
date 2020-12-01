@@ -33,9 +33,15 @@ const HeroSection = () => {
       <div className='rightSide'>
           <img src="https://i.pinimg.com/736x/52/bc/39/52bc3928fd63daa22ebfb555f9ae07dd.jpg" alt="Cory Thomas" />
           <div className='socials'>
-            <div><Linkedin className="logo"/></div>
-            <div><Github className="logo"/></div>
-            <div><TwitterSquare className="logo"/></div>
+            <div className="so">
+              <a href="https://www.linkedin.com/in/corythomas92/"><Linkedin className="logo hero-logo"/></a>
+            </div>
+            <div className="so">
+              <a href="https://github.com/Cory-Thomas"><Github className="logo hero-logo"/></a>
+            </div>
+            <div className="so">
+              <a href="https://twitter.com/CoryThomas_"><TwitterSquare className="logo hero-logo"/></a>
+            </div>
           </div>
         </div>
     </div>
