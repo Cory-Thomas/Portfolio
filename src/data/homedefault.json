@@ -1,0 +1,147 @@
+[
+  {
+    "id": "main-banner",
+    "title": "Cory <span class='color-primary'>Thomas</span>",
+    "subtitle": "Front-End Web Developer",
+    "bgImage": "./images/banner/bg-image-02.jpg",
+    "image": "./images/banner/person-image.jpg"
+  },
+
+  {
+    "id": "about",
+    "title": "About Me",
+    "subtitle": "Front-End Web Developer",
+    "description": "Hello! My name is Cory Thomas, a web developer based in Chattanooga, Tennessee.",
+    "description2": "Interestingly, my journey into programming started because of the Oculus Rift Development Kit 1 VR headset. I would browse the Oculus forums and noticed several people discussing code which made me want to dive into C++ in 2013. Eventually, I went to college for Computer Science but took a hiatus after two years because I was unsure of what I wanted to specialize in. I remembered my time in high school when I was in the Web Development club and so I started to dabble with it again. Unfortunately, I didn't know that I enjoyed web development back then since I didn't take the club seriously enough. In contrast, I fully committed myself by self-studying for over a year and knew this field was absolutely for me! As a result, I attended Lambda School full time as a full-stack web student and mentor focusing on React, Node, and computer science.",
+    "description3": " This journey has been extremely satisfying so far and fulfills my desire to always learn something new and challenging.",
+    "downloadButton": "Download CV",
+    "linkBUtton": "Send Message",
+    "aboutData": [
+      {
+        "id": "aboutinfo-1",
+        "iconName": "FiArrowRightCircle",
+        "label": "Birthday",
+        "value": "01.07.1990"
+      },
+      {
+        "id": "aboutinfo-2",
+        "iconName": "icon",
+        "label": "Age",
+        "value": "29"
+      },
+      {
+        "id": "aboutinfo-3",
+        "iconName": "icon",
+        "label": "Location",
+        "value": "Ave 11, New York, USA"
+      },
+      {
+        "id": "aboutinfo-3",
+        "iconName": "icon",
+        "label": "Interests",
+        "value": "PlayStation, Reading"
+      },
+      {
+        "id": "aboutinfo-3",
+        "iconName": "icon",
+        "label": "Study",
+        "value": "University of Chicago"
+      },
+      {
+        "id": "aboutinfo-4",
+        "iconName": "icon",
+        "label": "Degree",
+        "value": "Master"
+      },
+      {
+        "id": "aboutinfo-5",
+        "iconName": "icon",
+        "label": "Mail",
+        "value": "mymail@gmail.com"
+      },
+      {
+        "id": "aboutinfo-6",
+        "iconName": "icon",
+        "label": "Phone",
+        "value": "+77 022 177 05 05"
+      }
+    ]
+  },
+
+  {
+    "id": "skill",
+    "title": "In a <span class='theme-color'>short time</span>, I have been able to achieve excellence in all areas of development.",
+    "description": "I provide cost-effective and high quality products to meet our Clients’ needs of timely We provide cost-effective and high quality products to meet our Clients’ needs of timely."
+  },
+  {
+    "id": "portfolio",
+    "title": "Featured Works",
+    "description": "In other words, the best marketing decision you can make is to have a product or business that fulfills a real and compelling need for a real and defined group of people — no matter how much tweaking and refining this takes.(c)"
+  },
+  {
+    "id": "chooseus",
+    "imagegroup": [
+      {
+        "image": "./images/others/why-1.jpg"
+      },
+      {
+        "image": "./images/others/why-2.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": "skillTwo",
+    "title": "My Skills in <span class='theme-color'>Years</span>",
+    "description": "When the past gets its teeth into our daily life, it may get to grips with an astringent reality and adjust our timeline. By recognizing ourselves in the light of our history, we become aware of what we are.(c)"
+  },
+  {
+    "id": "testimonial",
+    "title": "Steve Lehman",
+    "subtitle": "CEO of Hiday Motors.",
+    "description": "We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.",
+    "bgImage": "./images/banner/bg-image-03.jpg"
+  },
+  {
+    "id": "brand",
+    "brandGroup": [
+      {
+        "id": "brand-01",
+        "image": "./images/brand/1.png"
+      },
+      {
+        "id": "brand-02",
+        "image": "./images/brand/2.png"
+      },
+      {
+        "id": "brand-03",
+        "image": "./images/brand/3.png"
+      },
+      {
+        "id": "brand-04",
+        "image": "./images/brand/4.png"
+      },
+      {
+        "id": "brand-01",
+        "image": "./images/brand/5.png"
+      },
+      {
+        "id": "brand-02",
+        "image": "./images/brand/6.png"
+      },
+      {
+        "id": "brand-03",
+        "image": "./images/brand/3.png"
+      },
+      {
+        "id": "brand-04",
+        "image": "./images/brand/4.png"
+      }
+    ]
+  },
+  {
+    "id": "contactus",
+    "title": "Get in Touch",
+    "subtitle": "Crowds are the most difficult thing for me these days because I have to walk with my head down and my eyes averted. There's still that part of me that wants to hold my head up, make eye contact and smile. (c)"
+  }
+]
