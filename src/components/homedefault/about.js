@@ -1,5 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import { Controller, Scene } from 'react-scrollmagic';
 
 const About = () => {
   const aboutQueryData = useStaticQuery(graphql`
@@ -29,6 +31,8 @@ const About = () => {
   const description2 = aboutQueryData.homedefaultJson.description2;
   const description3 = aboutQueryData.homedefaultJson.description3;
   const downloadButton = aboutQueryData.homedefaultJson.downloadButton;
+  const linkBUtton = aboutQueryData.homedefaultJson.linkBUtton;
+  const PortfolioImages = aboutQueryData.file.childImageSharp.fixed;
 
   return (
     <div
@@ -37,6 +41,22 @@ const About = () => {
     >
       <div className='container'>
         <div className='row row--45 align-items-center'>
+          {/* <div className='col-lg-5'>
+            <div className='thumbnail'>
+              <div className='trigger' id='trigger2' />
+              <Controller>
+                <Scene
+                  classToggle='animated'
+                  triggerElement='#trigger2'
+                  triggerHook='onCenter'
+                >
+                  <div className='rn_surface story-image'>
+                    <Img className='about-images' fixed={PortfolioImages} />
+                  </div>
+                </Scene>
+              </Controller>
+            </div>
+          </div> */}
           <div className='col-lg-10'>
             <div className='inner'>
               <div className='content'>
@@ -50,6 +70,14 @@ const About = () => {
                       {title}
                       <span className='bg'>About</span>
                     </h3>
+                    {title && (
+                      <h4
+                        className='subtitle wow fadeInLeft'
+                        data-wow-delay='200ms'
+                        data-wow-duration='1000ms'
+                        dangerouslySetInnerHTML={{ __html: Subtitle }}
+                      ></h4>
+                    )}
                   </div>
 
                   {description && (
