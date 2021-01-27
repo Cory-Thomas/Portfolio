@@ -3,7 +3,16 @@ import { Link } from 'gatsby';
 import { slugify } from '../utils/utilityFunctions';
 import Image from '../elements/image';
 
-const Blog = ({ title, date, author, path, image, excerpt, category }) => {
+const Blog = ({
+  title,
+  date,
+  author,
+  path,
+  image,
+  excerpt,
+  category,
+  github,
+}) => {
   return (
     <div className='content-block'>
       <div className='post-thubnail'>
@@ -50,7 +59,7 @@ const Blog = ({ title, date, author, path, image, excerpt, category }) => {
               <div>hey</div>
           
           } */}
-          <Link to={`/${path}`}>
+          <Link to={`/${github}`}>
             <span>GitHub</span>
           </Link>
         </div>
