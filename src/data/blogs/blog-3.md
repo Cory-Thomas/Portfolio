@@ -4,7 +4,6 @@ date: '2020-02-06 05:00:00'
 author: 'Rainbow'
 format: 'image'
 image: '../images/blog/blog-3.jpg'
-github: 'https://github.com/Cory-Thomas'
 category: Themeforest
 tags:
   - react

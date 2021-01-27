@@ -69,7 +69,6 @@ export const blogDetailsData = graphql`
             }
           }
         }
-        github
       }
     }
   }

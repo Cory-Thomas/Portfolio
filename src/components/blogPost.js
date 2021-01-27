@@ -32,7 +32,6 @@ const BlogPost = () => {
                   }
                 }
               }
-              github
             }
           }
         }

@@ -4,7 +4,6 @@ date: '2020-02-05 05:00:00'
 author: 'Rainbow'
 format: 'image'
 image: '../images/blog/blog-2.jpg'
-github: 'https://github.com/Cory-Thomas'
 category: Graphics
 tags:
   - react
