@@ -18,6 +18,14 @@ const ContactForm = ({ url }) => {
     message: '',
   });
 
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
+      )
+      .join('&');
+  };
+
   const handleServerResponse = (ok, msg, form) => {
     setServerState({
       submitting: false,
@@ -36,18 +44,37 @@ const ContactForm = ({ url }) => {
 
   const onSubmit = (data, e) => {
     const form = e.target;
+    console.log('data', data);
     setServerState({ submitting: true });
     axios({
       method: 'post',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact', ...data }),
       url: url,
       data,
     })
       .then((res) => {
-        handleServerResponse(true, 'Thanks! for being with us', form);
+        handleServerResponse(true, 'Submitted Succesfully', form);
       })
       .catch((err) => {
         handleServerResponse(false, err.response.data.error, form);
       });
+
+    // const form = e.target;
+    // setServerState({ submitting: true });
+    // axios({
+    //   method: 'post',
+    //   url: url,
+    //   data,
+    // })
+    //   .then((res) => {
+    //     handleServerResponse(true, 'Submitted Succesfully', form);
+    //   })
+    //   .catch((err) => {
+    //     handleServerResponse(false, err.response.data.error, form);
+    //   });
+
+    e.preventDefault();
   };
 
   const isErrors = Object.keys(errors).length !== 0 && true;
@@ -56,12 +83,7 @@ const ContactForm = ({ url }) => {
   };
 
   return (
-    <form
-      name='contactNetlify'
-      onSubmit={handleSubmit(onSubmit)}
-      data-netlify='true'
-      method='post'
-    >
+    <form onSubmit={handleSubmit(onSubmit)}>
       <div
         className={`form-group ${isErrors && errors.name ? 'has-error' : ''} ${
           value.name ? 'has-value' : ''
@@ -155,11 +177,15 @@ const ContactForm = ({ url }) => {
         >
           Send Message
         </button>
-        {/* {serverState.status && (
-                    <p className={`form-output ${!serverState.status.ok ? "errorMsg" : "success"}`}>
-                        {serverState.status.msg}
-                    </p>
-                )} */}
+        {serverState.status && (
+          <p
+            className={`form-output ${
+              !serverState.status.ok ? 'errorMsg' : 'success'
+            }`}
+          >
+            {serverState.status.msg}
+          </p>
+        )}
       </div>
     </form>
   );
