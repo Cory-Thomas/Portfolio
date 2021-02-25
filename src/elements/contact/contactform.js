@@ -62,6 +62,7 @@ const ContactForm = ({ url }) => {
           value.name ? 'has-value' : ''
         }`}
       >
+        {/* added styling to fix font not showing up */}
         <input
           style={{ color: 'white' }}
           type='text'
