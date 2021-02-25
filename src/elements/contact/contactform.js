@@ -56,7 +56,12 @@ const ContactForm = ({ url }) => {
   };
 
   return (
-    <form name='contact' onSubmit={handleSubmit(onSubmit)} data-netlify='true'>
+    <form
+      name='contactNetlify'
+      onSubmit={handleSubmit(onSubmit)}
+      data-netlify='true'
+      method='post'
+    >
       <div
         className={`form-group ${isErrors && errors.name ? 'has-error' : ''} ${
           value.name ? 'has-value' : ''
