@@ -1,5 +1,6 @@
 import React from 'react';
-import { FiMonitor, FiActivity, FiNavigation } from 'react-icons/fi';
+import { FiMonitor, FiDatabase } from 'react-icons/fi';
+import { AiOutlineTool } from 'react-icons/ai';
 
 const Service = () => {
   return (
@@ -40,14 +41,11 @@ const Service = () => {
               >
                 <div className='inner'>
                   <div className='icon'>
-                    <FiActivity />
+                    <FiDatabase />
                   </div>
                   <div className='content'>
                     <h4 className='title'>Back-End</h4>
-                    <p>
-                      Web design is a similar process of creation, with the
-                      intention of presenting...
-                    </p>
+                    <p>Node, Express, Postgres, SQLite</p>
                   </div>
                 </div>
               </div>
@@ -63,7 +61,7 @@ const Service = () => {
               >
                 <div className='inner'>
                   <div className='icon'>
-                    <FiNavigation />
+                    <AiOutlineTool />
                   </div>
                   <div className='content'>
                     <h4 className='title'>Tools</h4>
