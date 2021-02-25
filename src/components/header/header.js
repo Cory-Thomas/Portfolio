@@ -62,7 +62,7 @@ const Header = () => {
                 <div className='menu_wrapper'>
                   <Scrollspy
                     className='mainmenuwrapper'
-                    items={['home', 'about', 'news', 'contact']}
+                    items={['home', 'about', 'portfolio', 'contact']}
                     currentClassName='is-current'
                     offset={-200}
                   >
@@ -83,7 +83,7 @@ const Header = () => {
                     </li>
 
                     <li>
-                      <a className='menu-hover-link' href='/#news'>
+                      <a className='menu-hover-link' href='/#portfolio'>
                         <span className='hover-item'>
                           <span data-text='Projects'>Projects</span>
                         </span>

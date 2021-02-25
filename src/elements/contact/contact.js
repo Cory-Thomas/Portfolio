@@ -42,16 +42,17 @@ const Contact = () => {
         <div className='row row--45'>
           {/* Start Contact Form  */}
           <div
-            className='col-lg-6 col-12 mt--70 mt_md--30 mt_sm--40 wow fadeInLeft'
+            className='col-lg-7 col-12 mt--70 mt_md--30 mt_sm--40 wow fadeInLeft'
             data-wow-delay='200ms'
             data-wow-duration='1000ms'
           >
             <div className='info'>
               <p>
-                Please fill out the form completely to contact me. <br />
-                Or message me on{' '}
+                Please fill out the form completely to contact me.
+                <br />
+                Or send me a message on LinkedIn{' '}
                 <a href='https://www.linkedin.com/in/corythomasdev/'>
-                  LinkedIn.
+                  [LinkedIn link]
                 </a>
               </p>
             </div>

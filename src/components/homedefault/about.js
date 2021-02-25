@@ -24,17 +24,13 @@ const About = () => {
   `);
 
   const title = aboutQueryData.homedefaultJson.title;
-  const Subtitle = aboutQueryData.homedefaultJson.subtitle;
   const description = aboutQueryData.homedefaultJson.description;
   const description2 = aboutQueryData.homedefaultJson.description2;
   const description3 = aboutQueryData.homedefaultJson.description3;
   const downloadButton = aboutQueryData.homedefaultJson.downloadButton;
 
   return (
-    <div
-      className='rb-about-area about-style rn-section-gap bg-color-white'
-      id='about'
-    >
+    <div className='rb-about-area about-style rn-section-gap' id='about'>
       <div className='container'>
         <div className='row row--45 align-items-center'>
           <div className='col-lg-10'>
@@ -75,18 +71,6 @@ const About = () => {
                       data-wow-duration='1000ms'
                       dangerouslySetInnerHTML={{ __html: description3 }}
                     ></p>
-                  )}
-                </div>
-                <div className='button-group mt--30'>
-                  {downloadButton && (
-                    <a
-                      className='rn-button wow fadeInLeft'
-                      data-wow-delay='200ms'
-                      data-wow-duration='1000ms'
-                      href='#downloadbutton'
-                    >
-                      <span>{downloadButton}</span>
-                    </a>
                   )}
                 </div>
               </div>

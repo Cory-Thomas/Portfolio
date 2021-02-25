@@ -3,8 +3,8 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Banner from '../components/homedefault/banner';
 import About from '../components/homedefault/about';
+import Project from '../components/homedefault/project';
 import Service from '../components/homedefault/service';
-import BlogPost from '../components/blogPost';
 import Contact from '../elements/contact/contact';
 
 const IndexPage = () => (
@@ -14,7 +14,7 @@ const IndexPage = () => (
     <About />
     <Service />
     <div className='portfolio-id' id='portfolio'>
-      <BlogPost />
+      <Project />
     </div>
     <Contact />
   </Layout>

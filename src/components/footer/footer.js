@@ -64,7 +64,7 @@ const Footer = ({ showBelow }) => {
                 <p>
                   Open To:
                   <br />
-                  Relocation &#38; Remote
+                  Remote &#38; Relocation
                 </p>
               </div>
             </div>

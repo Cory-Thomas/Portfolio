@@ -1,6 +1,5 @@
 import React from 'react';
 import { FiMonitor, FiDatabase } from 'react-icons/fi';
-import { FaDatabase } from 'react-icons/fa';
 import { AiOutlineTool } from 'react-icons/ai';
 
 const Service = () => {
@@ -66,10 +65,7 @@ const Service = () => {
                   </div>
                   <div className='content'>
                     <h4 className='title'>Tools</h4>
-                    <p>
-                      Git, GitHub, Jest, Cypress, React Testing Library, Visual
-                      Studio Code, Postman, Zoom, Slack
-                    </p>
+                    <p>Git, GitHub, Jest, Cypress, React Testing Library</p>
                   </div>
                 </div>
               </div>
