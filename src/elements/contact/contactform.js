@@ -44,12 +44,11 @@ const ContactForm = ({ url }) => {
 
   const onSubmit = (data, e) => {
     const form = e.target;
-    console.log('data', data);
     setServerState({ submitting: true });
     axios({
       method: 'post',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'contact', ...data }),
+      body: encode({ 'form-name': 'contact', ...value }),
       url: url,
       data,
     })
@@ -83,7 +82,13 @@ const ContactForm = ({ url }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form
+      name='contact'
+      onSubmit={handleSubmit(onSubmit)}
+      method='post'
+      data-netlify='true'
+      data-netlify-honeypot='bot-field'
+    >
       <div
         className={`form-group ${isErrors && errors.name ? 'has-error' : ''} ${
           value.name ? 'has-value' : ''
