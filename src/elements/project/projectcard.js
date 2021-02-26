@@ -35,9 +35,9 @@ const Projectcard = ({ image, id, title, category, column }) => {
               <span className='category'>
                 {title === 'Human Rights First: Asylum Analysis' ? (
                   <p>
-                    React application built for a real non-profit organization
-                    (Human Rights First) that allows its users to analyze court
-                    rulings made by judges for specific asylum cases.
+                    React application built for a non-profit organization (Human
+                    Rights First) that allows its users to analyze court rulings
+                    made by judges for specific asylum cases.
                     <br />
                     ***WARNING*** this site is constantly being updated by new
                     subsequent teams
