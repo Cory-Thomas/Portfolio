@@ -1,6 +1,6 @@
-import { graphql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery, Link } from 'gatsby';
 import React from 'react';
-import Contactform from './contactform';
+import { LinkedinSquare } from '@styled-icons/boxicons-logos/LinkedinSquare';
 
 const Contact = () => {
   const contactData = useStaticQuery(graphql`
@@ -48,15 +48,13 @@ const Contact = () => {
           >
             <div className='info'>
               <p>
-                Please fill out the form completely to contact me.
-                <br />
-                Or send me a message on LinkedIn{' '}
-                <a href='https://www.linkedin.com/in/corythomasdev/'>
-                  [LinkedIn link]
-                </a>
+                Send me a message on LinkedIn -->{' '}
+                <Link to='https://www.linkedin.com/in/corythomasdev/'>
+                  <LinkedinSquare style={{ width: '50px' }} />
+                </Link>
               </p>
             </div>
-            <Contactform url={getform_url} />
+            {/* <Contactform url={getform_url} /> */}
           </div>
           {/* End Contact Form  */}
         </div>
