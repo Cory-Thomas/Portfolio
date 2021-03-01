@@ -20,28 +20,43 @@ const Projectcard = ({ image, id, title, category, column }) => {
       }}
     >
       <div className='portfolio'>
-        <div className='thumbnail'>
-          <Link to={`/project/${id}`}>{projectImg}</Link>
-        </div>
+        {title === 'Human Rights First: Asylum Analysis' ? (
+          <div className='thumbnail'>
+            <Link
+              to={
+                'https://dev.to/corythomas/helping-out-a-non-profit-organization-as-a-bootcamp-student-h2a'
+              }
+            >
+              {projectImg}
+            </Link>
+          </div>
+        ) : (
+          <div className='thumbnail'>
+            <Link to={'https://dev.to/corythomas/plant-purpose-4laa'}>
+              {projectImg}
+            </Link>
+          </div>
+        )}
+
         <div className='content'>
           <div className='inner'>
-            {title && (
-              <h4 className='title'>
-                <Link to={`/project/${id}`}>{title}</Link>
-              </h4>
-            )}
+            {title && <h4 className='title'>{title}</h4>}
 
             {category && (
               <span className='category'>
                 {title === 'Human Rights First: Asylum Analysis' ? (
-                  <p>
-                    React application built for a non-profit organization (Human
-                    Rights First) that allows its users to analyze court rulings
-                    made by judges for specific asylum cases.
-                    <br />
-                    ***WARNING*** this site is constantly being updated by new
-                    subsequent teams
-                  </p>
+                  <>
+                    <p>
+                      React application built for a non-profit organization
+                      (Human Rights First) that allows its users to analyze
+                      court rulings made by judges for specific asylum cases.
+                    </p>
+
+                    <p>
+                      Worked on a remote cross-functional team of 7, consisting
+                      of web and data science developers.
+                    </p>
+                  </>
                 ) : (
                   <>
                     <p>
@@ -50,9 +65,7 @@ const Projectcard = ({ image, id, title, category, column }) => {
                       plants.
                     </p>
                     <p>
-                      This has been a very interesting and fun project for me
-                      because I built the application from scratch and also
-                      partnered with a web designer for the design side of the
+                      Partnered with a web designer for the design side of the
                       site.
                     </p>
                     Designer: Hanina Syed <br />
@@ -114,47 +127,13 @@ const Projectcard = ({ image, id, title, category, column }) => {
 
             {category && (
               <span className='category'>
-                {title === 'Human Rights First: Asylum Analysis' ? (
-                  <a
-                    href='https://b.humanrightsfirstasylum.dev/'
-                    style={{ color: 'white' }}
-                  >
-                    Deployed Site
-                  </a>
-                ) : (
+                {title === 'Human Rights First: Asylum Analysis' ? null : (
                   <a
                     href='https://plantpurpose.netlify.app/'
                     style={{ color: 'white' }}
                   >
                     Deployed Site
                   </a>
-                )}
-              </span>
-            )}
-
-            <br />
-            <br />
-
-            {category && (
-              <span className='category'>
-                {title === 'Human Rights First: Asylum Analysis' ? (
-                  <>
-                    <div>
-                      <strong>Login Credentials</strong>
-                      <br />
-                      Username: llama001@maildrop.cc <br />
-                      Password: Test001Test
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    <div>
-                      <strong>Login Credentials</strong>
-                      <br />
-                      Username: guest <br />
-                      Password: guest
-                    </div>
-                  </>
                 )}
               </span>
             )}
